@@ -41,16 +41,16 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.MngmntBnt);
             this.panel1.Controls.Add(this.AnalyticsBtn);
+            this.panel1.Controls.Add(this.MngmntBnt);
+            this.panel1.Controls.Add(this.DashboardBtn);
             this.panel1.Controls.Add(this.ReportsBtn);
             this.panel1.Controls.Add(this.SickBayBtn);
             this.panel1.Controls.Add(this.HerdBtn);
             this.panel1.Controls.Add(this.MilkingBtn);
-            this.panel1.Controls.Add(this.DashboardBtn);
             this.panel1.Location = new System.Drawing.Point(1, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(173, 450);
+            this.panel1.Size = new System.Drawing.Size(1068, 52);
             this.panel1.TabIndex = 0;
             // 
             // MngmntBnt
@@ -60,9 +60,9 @@
             this.MngmntBnt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MngmntBnt.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.MngmntBnt.ForeColor = System.Drawing.Color.White;
-            this.MngmntBnt.Location = new System.Drawing.Point(0, 292);
+            this.MngmntBnt.Location = new System.Drawing.Point(912, 0);
             this.MngmntBnt.Name = "MngmntBnt";
-            this.MngmntBnt.Size = new System.Drawing.Size(173, 52);
+            this.MngmntBnt.Size = new System.Drawing.Size(152, 52);
             this.MngmntBnt.TabIndex = 6;
             this.MngmntBnt.Text = "Management";
             this.MngmntBnt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -75,9 +75,9 @@
             this.AnalyticsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AnalyticsBtn.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.AnalyticsBtn.ForeColor = System.Drawing.Color.White;
-            this.AnalyticsBtn.Location = new System.Drawing.Point(0, 195);
+            this.AnalyticsBtn.Location = new System.Drawing.Point(608, 0);
             this.AnalyticsBtn.Name = "AnalyticsBtn";
-            this.AnalyticsBtn.Size = new System.Drawing.Size(173, 52);
+            this.AnalyticsBtn.Size = new System.Drawing.Size(152, 52);
             this.AnalyticsBtn.TabIndex = 5;
             this.AnalyticsBtn.Text = "Analytics";
             this.AnalyticsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -90,7 +90,7 @@
             this.ReportsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ReportsBtn.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ReportsBtn.ForeColor = System.Drawing.Color.White;
-            this.ReportsBtn.Location = new System.Drawing.Point(0, 243);
+            this.ReportsBtn.Location = new System.Drawing.Point(760, 0);
             this.ReportsBtn.Name = "ReportsBtn";
             this.ReportsBtn.Size = new System.Drawing.Size(173, 52);
             this.ReportsBtn.TabIndex = 4;
@@ -105,9 +105,9 @@
             this.SickBayBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SickBayBtn.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SickBayBtn.ForeColor = System.Drawing.Color.White;
-            this.SickBayBtn.Location = new System.Drawing.Point(0, 146);
+            this.SickBayBtn.Location = new System.Drawing.Point(456, 0);
             this.SickBayBtn.Name = "SickBayBtn";
-            this.SickBayBtn.Size = new System.Drawing.Size(173, 52);
+            this.SickBayBtn.Size = new System.Drawing.Size(152, 52);
             this.SickBayBtn.TabIndex = 3;
             this.SickBayBtn.Text = "Sick Bay";
             this.SickBayBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -120,9 +120,9 @@
             this.HerdBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.HerdBtn.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.HerdBtn.ForeColor = System.Drawing.Color.White;
-            this.HerdBtn.Location = new System.Drawing.Point(0, 97);
+            this.HerdBtn.Location = new System.Drawing.Point(304, 0);
             this.HerdBtn.Name = "HerdBtn";
-            this.HerdBtn.Size = new System.Drawing.Size(173, 52);
+            this.HerdBtn.Size = new System.Drawing.Size(152, 52);
             this.HerdBtn.TabIndex = 2;
             this.HerdBtn.Text = "Herd";
             this.HerdBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -135,9 +135,9 @@
             this.MilkingBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MilkingBtn.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.MilkingBtn.ForeColor = System.Drawing.Color.White;
-            this.MilkingBtn.Location = new System.Drawing.Point(0, 48);
+            this.MilkingBtn.Location = new System.Drawing.Point(152, 0);
             this.MilkingBtn.Name = "MilkingBtn";
-            this.MilkingBtn.Size = new System.Drawing.Size(173, 52);
+            this.MilkingBtn.Size = new System.Drawing.Size(152, 52);
             this.MilkingBtn.TabIndex = 1;
             this.MilkingBtn.Text = "Milking";
             this.MilkingBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -153,11 +153,12 @@
             this.DashboardBtn.ForeColor = System.Drawing.Color.White;
             this.DashboardBtn.Location = new System.Drawing.Point(0, 0);
             this.DashboardBtn.Name = "DashboardBtn";
-            this.DashboardBtn.Size = new System.Drawing.Size(173, 52);
+            this.DashboardBtn.Size = new System.Drawing.Size(152, 52);
             this.DashboardBtn.TabIndex = 0;
             this.DashboardBtn.Text = "Dashboard";
             this.DashboardBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.DashboardBtn.UseVisualStyleBackColor = false;
+            this.DashboardBtn.Click += new System.EventHandler(this.DashboardBtn_Click);
             // 
             // Dashboard
             // 
@@ -165,9 +166,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1064, 749);
             this.Controls.Add(this.panel1);
             this.Name = "Dashboard";
             this.Text = "Dashboard";

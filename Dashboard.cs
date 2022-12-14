@@ -26,5 +26,10 @@ namespace Farm
         {
 
         }
+
+        private void DashboardBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
