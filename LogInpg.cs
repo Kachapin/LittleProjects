@@ -21,7 +21,6 @@ namespace Farm
         {
             Dashboard dashboard = new Dashboard();
             dashboard.Show();
-            this.Close();
         }
 
         private void Cancelbtn_Click(object sender, EventArgs e)
